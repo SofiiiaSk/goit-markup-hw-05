@@ -492,3 +492,62 @@ a {
   width: 40px;
   height: 40px;
 }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.modal {
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background-color: #fafafa;
+  position: absolute;
+  top: 80px;
+  left: 516px;
+  margin: auto;
+  /*
+  transform: translate(-50%, -50%);*/
+}
+.modal-close {
+  position: absolute;
+  top: 32px;
+  left: 368px;
+  right: 32px;
+  width: 8px;
+  height: 8px;
+  border: none;
+  background-color: transparent;
+}
+.modal-title {
+  text-align: center;
+  margin-top: 72px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+  width: 360px;
+  height: 24px;
+  top: 152px;
+  left: 540px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.modal-input {
+  width: 360px;
+  height: 58px;
+  opacity: 1;
+  top: 192px;
+  left: 540px;
+  border-radius: 4px;
+  border-color: rgba(46, 47, 66, 0.15);
+  gap: 8px;
+  background-color: transparent;
+}
