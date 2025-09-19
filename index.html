@@ -568,31 +568,31 @@
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close"></button>
-
+        <svg class="close-button" width="8" height="8">
+          <use href="./images/icons.svg#icon-close1"></use>
+        </svg>
         <p class="modal-title section-title">
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
-          <input
-            type="text"
-            class="modal-input"
-            placeholder="Your name"
-            name="user-name"
-          />
-
-          <input
-            type="text"
-            class="modal-input"
-            placeholder="Your phone"
-            name="user-phone"
-          />
-
-          <input
-            type="text"
-            class="modal-input"
-            placeholder="Your email"
-            name="user-email"
-          />
+          <div class="input-container">
+            <label for="user-name" class="input-name"> Name </label>
+          </div>
+          <div class="input-icon">
+            <input type="text" class="modal-input" />
+            <input
+              id="user-name"
+              name="user-name"
+              type="text"
+              class="modal-input-name"
+            />
+            <svg class="name-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </div>
+          <div class="input-container">
+            <input type="text" class="modal-input" />
+          </div>
         </form>
       </div>
     </div>
