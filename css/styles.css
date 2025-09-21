@@ -694,11 +694,18 @@ a {
   justify-content: center;
   fill: transparent;
 }
+input[type="checkbox"]:checked + .label-checkbox > .span-check {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+/*
 .input-checked:checked .label-checkbox .span-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
+  */
 .privacy-policy {
   color: #4d5ae5;
 }
