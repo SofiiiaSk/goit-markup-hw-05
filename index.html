@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,28 +19,27 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-
   <body>
-    <header class="page-header">
+    <header class="page-header" id="header">
       <div class="container header-container">
-        <nav class="header-nav">
-          <a class="logo header-logo" href="./index.html"
-            >Web<span class="logo-part">Studio</span></a
-          >
+        <a class="logo header-logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
 
+        <nav class="header-nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link current" href="./index.html">Studio</a>
+              <a class="nav-link current" href="./index.html">Features</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">Team</a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="">Portfolio</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -64,7 +63,7 @@
     </header>
 
     <main>
-      <section class="first-section">
+      <section class="first-section" id="hero">
         <div class="container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
 
@@ -72,9 +71,9 @@
         </div>
       </section>
 
-      <section class="second-section">
+      <section class="second-section" id="features">
         <div class="container">
-          <h2 class="page-title-second visually-hidden">Points</h2>
+          <h2 class="page-title-second sr-only">Our features</h2>
           <ul class="second-list">
             <li class="points-text">
               <div class="icon-container">
@@ -128,20 +127,19 @@
         </div>
       </section>
 
-      <section class="third-section">
+      <section class="third-section" id="team">
         <div class="container container-team">
           <h2 class="page-title-third">Our Team</h2>
-
           <ul class="third-list">
             <li class="team-page">
               <img
-                src="./images/mark-guerrero.jpg"
+                src="./images/team-1.jpg"
                 width="264"
                 alt="Mark Guerrero avatar"
               />
               <div class="team-container">
-                <h3 class="team-text">Mark Guerrero</h3>
-                <p class="paragraf-sec">Product Designer</p>
+                <h3 class="points-title">Mark Guerrero</h3>
+                <p class="paragraph-team">Product Designer</p>
                 <ul class="networks">
                   <li class="network-list">
                     <a
@@ -192,13 +190,13 @@
             </li>
             <li class="team-page">
               <img
-                src="./images/tom-ford.jpg"
+                src="./images/team-2.jpg"
                 width="264"
                 alt="Tom Ford avatar"
               />
               <div class="team-container">
-                <h3 class="team-text">Tom Ford</h3>
-                <p class="paragraf-sec">Frontend Developer</p>
+                <h3 class="points-title">Tom Ford</h3>
+                <p class="paragraph-team">Frontend Developer</p>
                 <ul class="networks">
                   <li class="network-list">
                     <a
@@ -247,16 +245,15 @@
                 </ul>
               </div>
             </li>
-
             <li class="team-page">
               <img
-                src="./images/camila-garcia.jpg"
+                src="./images/team-3.jpg"
                 width="264"
                 alt="Camila Garcia avatar"
               />
               <div class="team-container">
-                <h3 class="team-text">Camila Garcia</h3>
-                <p class="paragraf-sec">Marketing</p>
+                <h3 class="points-title">Camila Garcia</h3>
+                <p class="paragraph-team">Marketing</p>
                 <ul class="networks">
                   <li class="network-list">
                     <a
@@ -305,16 +302,15 @@
                 </ul>
               </div>
             </li>
-
             <li class="team-page">
               <img
-                src="./images/daniel-wilson.jpg"
+                src="./images/team-4.jpg"
                 width="264"
                 alt="Daniel Wilson avatar"
               />
               <div class="team-container">
-                <h3 class="team-text">Daniel Wilson</h3>
-                <p class="paragraf-sec">UI Designer</p>
+                <h3 class="points-title">Daniel Wilson</h3>
+                <p class="paragraph-team">UI Designer</p>
                 <ul class="networks">
                   <li class="network-list">
                     <a
@@ -366,14 +362,15 @@
           </ul>
         </div>
       </section>
-      <section class="fourth-section">
+
+      <section class="fourth-section" id="portfolio">
         <div class="container container-category">
           <h2 class="page-title-third">Our Portfolio</h2>
           <ul class="fourth-list">
             <li class="apps-list">
               <div class="image-hover">
                 <img
-                  src="./images/banking-app.jpg"
+                  src="./images/portfolio-1.jpg"
                   width="360"
                   alt="banking app picture"
                   class="image-portfolio"
@@ -392,7 +389,7 @@
             <li class="apps-list">
               <div class="image-hover">
                 <img
-                  src="./images/cashless-payment.jpg"
+                  src="./images/portfolio-2.jpg"
                   width="360"
                   alt="cashless payment picture"
                   class="image-portfolio"
@@ -411,7 +408,7 @@
             <li class="apps-list">
               <div class="image-hover">
                 <img
-                  src="./images/meditation-app.jpg"
+                  src="./images/portfolio-3.jpg"
                   width="360"
                   alt="meditation app picture"
                   class="image-portfolio"
@@ -430,7 +427,7 @@
             <li class="apps-list">
               <div class="image-hover">
                 <img
-                  src="./images/taxi-service.jpg"
+                  src="./images/portfolio-4.jpg"
                   width="360"
                   alt="taxi service picture"
                   class="image-portfolio"
@@ -449,7 +446,7 @@
             <li class="apps-list">
               <div class="image-hover">
                 <img
-                  src="./images/screen-illustrations.jpg"
+                  src="./images/portfolio-5.jpg"
                   width="360"
                   alt="screen illustration picture"
                   class="image-portfolio"
@@ -468,7 +465,7 @@
             <li class="apps-list">
               <div class="image-hover">
                 <img
-                  src="./images/online-courses.jpg"
+                  src="./images/portfolio-6.jpg"
                   width="360"
                   alt="online courses picture"
                   class="image-portfolio"
@@ -488,8 +485,8 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
-      <div class="all-content">
+    <footer class="page-footer" id="footer">
+      <div class="container all-content">
         <div class="logop-container">
           <a class="logo footer-logo" href="./index.html"
             >Web<span class="logo-part">Studio</span></a
@@ -549,6 +546,7 @@
             </li>
           </ul>
         </div>
+      </div>
         <div class="form-container">
           <p class="sub">Subscribe</p>
           <form class="forma">
